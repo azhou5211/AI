@@ -1,0 +1,6 @@
+You are asked to guess a random number x between 1 and n(inclusive).
+You are provided a function is_this_smaller(a) that returns True if and only if a < x.
+Implement the function guess_limited(n, is_this_smaller) that returns your guess of x.
+You may call is_this_smaller as many times as you want as long as it returns true.
+However, you fail if is_this_smaller returns false three times.
+You are to minimize the average number of calls to is_this_smaller that you make.
