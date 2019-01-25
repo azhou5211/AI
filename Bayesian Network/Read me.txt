@@ -1,0 +1,7 @@
+This is a python 2 program that uses Naive Bayes classifier to recognize hand written digits.
+
+This program takes in a images of size 28*28 pixels. The program takes in a training set to learn/build the bayesian network. After taking in a training set, it is given another set of numbers to guess the number it is given. The program computes the probability of all 9 digits, then it outputs the the digit with the highest probability.
+
+This program uses a very basic feature_extractor which determines if a pixel is part of a digit or if the pixel is part of the background. The program can be improved to extract more advanced features such as whether a pixel is close to the background or not instead of using binary features. Another way of improving the accuracy is by adding weights to each pixel, so that some pixels have more influence than others. 
+
+With the current basic implementation, training set, and test set, we are able to achieve a 81.8% accuracy of handwritten numbers.
